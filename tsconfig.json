@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "jsx": "react",
-    "jsx": "react",
+    "jsx": "react-jsx",
     "jsx": "react",
     /* Visit https://aka.ms/tsconfig.json to read more about this file */
 
@@ -104,5 +104,6 @@
   "exclude": [
     "node_modules",
     "vendor"
-  ]
+  ],
+  "include": ["src/components", "src/custom.d.ts"]
 }
